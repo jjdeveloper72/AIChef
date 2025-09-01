@@ -1,7 +1,9 @@
+import headerLogo from '../assets/chef-claude-icon.png'
 export default function Header() {
   return (
     <header>
-      <h1>Recipe Generator</h1>
+      <img className='header-logo' src={headerLogo} alt="Chef Claude" />
+      <h1>The Amazing Chef Claudio</h1>
     </header>
   )
 }

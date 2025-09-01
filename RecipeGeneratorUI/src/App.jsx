@@ -1,17 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 
+import { useState, useEffect } from 'react'
+import Header from './components/Header'
+import Main from './components/Main' 
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <Header />
-      <main>
-        <p>Welcome to the Recipe Generator App!</p>
-      </main>
+      <Main />
     </>
   )
 }
