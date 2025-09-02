@@ -1,3 +1,48 @@
+#ingredient-input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#ingredient-tip {
+  font-size: 0.6rem;
+  color: #888;
+  width: 70px;
+}
+
+#ingredient-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+[id^="ingredient-item-"] {
+  display: list-item;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+[id^="ingredient-edit-row-"] {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+[id^="ingredient-edit-"] {
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  width: 150px;
+  min-width: 60px;
+}
+
+[id^="ingredient-remove-"] {
+  color: rgba(255, 8, 0, 1);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
 header{
   display: flex;
   justify-content: center;
